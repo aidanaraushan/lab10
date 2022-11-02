@@ -35,8 +35,8 @@ function get_sum(lab){
 }
 function main(lab1, lab2, lab3, lab4_5, lab6, lab8,quiz1){
   let obj=0;
-  obj=0.7*(get_sum(lab1)+get_sum(lab2)/2+get_sum(lab3)+get_sum(lab4_5)+get_sum(lab6)+
-  get_sum(lab8))/7 + get_sum(quiz1)*0.3;
+  obj=0.6*(get_sum(lab1)+get_sum(lab2)/2+get_sum(lab3)+get_sum(lab4_5)+get_sum(lab6)+
+  get_sum(lab8))/6 + get_sum(quiz1)*0.4;
   return obj;
 
 }
